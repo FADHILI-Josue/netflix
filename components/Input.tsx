@@ -10,7 +10,7 @@ interface InputProps {
 
 const Input: React.FC<InputProps> = ({ id, onChange, value, label, type }) => {
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <input
         onChange={onChange}
         value={value}
